@@ -1,0 +1,14 @@
+.img36 {
+    display: flex;
+    justify-content: center;
+    /* 水平置中 */
+    margin-top: -500px;
+    margin-left: 0;
+    z-index: -99;
+    width: 100%;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -160px;
+}

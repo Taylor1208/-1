@@ -1,0 +1,64 @@
+body {
+    background: black;
+    color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#logo {
+    width: 200px;
+    margin-top: -50px;
+    z-index: 99;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#top {
+    top: 0;
+    display: inline;
+}
+
+.list li {
+    display: inline-block;
+    margin-right: 20px;
+    z-index: 100;
+    position: relative;
+
+}
+
+.list {
+    float: right;
+    margin: 0;
+    margin-right: 20px;
+
+}
+.hr {
+    margin-top: 25px;
+    height: 2px;
+    background: linear-gradient(1deg, transparent, white, transparent);
+    margin-bottom: 20px;
+}
+
+#top-btn {
+    /* 框框 */
+    border-style: solid;
+    /* 圓角弧度 */
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    /* 彈性排版 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    color: #7eb6cd;
+    /* 版面絕對位置固定 */
+    position: sticky;
+    bottom: 50px;
+    left: 80%;
+    z-index: 1000;
+}
