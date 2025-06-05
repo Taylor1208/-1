@@ -34,11 +34,13 @@
 .about-txtw1 {
     line-height: 1;
     margin-left: 10px;
+    font-size: 20px;
 }
 
 .about_txtw2 {
     margin-left: 100px;
     margin-top: 80px;
+    font-size: 20px;
 }
 
 .img15 {
@@ -53,10 +55,12 @@
     line-height: 1;
     margin-top: 80px;
     margin-left: 10px;
+    font-size: 20px;
 }
 
 .about_txtw4 {
     line-height: 1;
     margin-top: 80px;
     margin-left: 40px;
+    font-size: 20px;
 }

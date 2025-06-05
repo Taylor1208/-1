@@ -68,6 +68,24 @@ ul {
 
 }
 
+.img-hide {
+    transition: opacity 0.5s ease;
+}
+
+.hide-on-scroll {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.img-group img {
+    transition: opacity 0.5s ease;
+}
+
+.hide-on-scroll {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .logo2 {
     z-index: 999;
     margin-top: 100px;
