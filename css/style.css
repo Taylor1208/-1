@@ -1,3 +1,9 @@
+
+
+
+
+
+
 body {
     background: black;
     color: white;
@@ -42,7 +48,7 @@ ul {
 }
 
 ul.list li:hover {
-    color: #7eb6cd !important;
+  color: #7eb6cd !important;
 }
 
 .list {
