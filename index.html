@@ -104,16 +104,17 @@
         }
     </script>
     <script>
-        const parallaxImages = document.querySelectorAll('#home .img-group img');
+        // ✅ 讓所有 #home 區塊內的圖片都有視差效果與淡出
+        const parallaxImages = document.querySelectorAll('#home img');
 
         window.addEventListener('scroll', () => {
             const scrollY = window.scrollY;
 
             parallaxImages.forEach(img => {
-                // 🟡 圖片往下平移：視差效果
-                img.style.transform = `translateY(${scrollY * 0.3}px)`;
+                // 視差效果（向下滑動）
+                img.style.transform = `translateY(${scrollY * 0.2}px)`;
 
-                // 🔴 超過300px後淡出
+                // 超過 450px 時淡出
                 if (scrollY > 450) {
                     img.classList.add('fade-out');
                 } else {
@@ -122,6 +123,7 @@
             });
         });
     </script>
+
 
 
 </body>

@@ -42,6 +42,17 @@ ul {
     height: 200px;
 }
 
+#home img {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    position: relative;
+}
+
+.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
 .img-group {
     z-index: 97;
     position: relative;
@@ -68,6 +79,7 @@ ul {
 
 }
 
+
 .img-group img {
     transition: opacity 0.5s ease, transform 0.5s ease;
     position: relative;
@@ -82,29 +94,19 @@ ul {
     transition: opacity 0.5s ease;
 }
 
-.hide-on-scroll {
-    opacity: 0;
-    pointer-events: none;
-}
-
-
-.hide-on-scroll {
-    opacity: 0;
-    pointer-events: none;
-}
 
 .logo2 {
     z-index: 999;
     margin-top: 100px;
     position: absolute;
-    top: 50px;
-    left: 50%;
+    top: -450px;
+    left: 400px;
     transform: translateX(-50%);
     z-index: 9999;
 }
 
 #home2 {
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .txt1 {
