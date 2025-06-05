@@ -9,17 +9,17 @@
 
 
 .cus-top {
-        position: relative;
-        /* 讓你可以用 top, left 等調整位置 */
-        top: -200px;
-        /* 從頁面最上方開始 */
-        left: 0;
-        margin: 0;
-        /* 確保沒有多餘外距 */
-        padding: 0;
-        top: -200px;
-        /* 你可以慢慢增加負值或正值，微調往上或往下 */
-        /* 例如： top: -20px; left: 10px; */
+    position: relative;
+    /* 讓你可以用 top, left 等調整位置 */
+    top: -200px;
+    /* 從頁面最上方開始 */
+    left: 0;
+    margin: 0;
+    /* 確保沒有多餘外距 */
+    padding: 0;
+    top: -200px;
+    /* 你可以慢慢增加負值或正值，微調往上或往下 */
+    /* 例如： top: -20px; left: 10px; */
 }
 
 .img19 {
@@ -39,7 +39,7 @@
     /* ✅ 放大圖片（你可以改成你要的大小） */
     max-width: 100%;
     /* ✅ 手機畫面會自動縮放 */
-    display: flex; 
+    display: flex;
     margin-top: -100px;
 }
 
@@ -139,4 +139,28 @@
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     top: 200px;
+}
+
+.start-btn {
+    border-radius: 8px;
+    background-color: #d9d9d9;
+    /* 淡灰色背景 */
+    color: #000000;
+    /* 黑色文字 */
+    border: none;
+    /* 無邊框 */
+    font-size: 24px;
+    /* 字體大小可依需求調整 */
+    padding: 10px 20px;
+    /* 內距 */
+    cursor: pointer;
+    /* 滑鼠變手指 */
+    font-family: 'Noto Sans TC', sans-serif;
+    /* 字型可選繁中 */
+    transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+    background-color: #5c5656;
+    /* 滑過時稍微變深 */
 }
