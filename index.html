@@ -103,24 +103,27 @@
             });
         }
     </script>
-
-
     <script>
-        // 選取所有要隱藏的圖片
-        const targets = document.querySelectorAll('.img-hide');
+        const parallaxImages = document.querySelectorAll('#home .img-group img');
 
         window.addEventListener('scroll', () => {
-            const scrollTop = window.scrollY || document.documentElement.scrollTop;
+            const scrollY = window.scrollY;
 
-            targets.forEach(img => {
-                if (scrollTop > 300) {
-                    img.classList.add('hide-on-scroll');
+            parallaxImages.forEach(img => {
+                // 🟡 圖片往下平移：視差效果
+                img.style.transform = `translateY(${scrollY * 0.3}px)`;
+
+                // 🔴 超過300px後淡出
+                if (scrollY > 450) {
+                    img.classList.add('fade-out');
                 } else {
-                    img.classList.remove('hide-on-scroll');
+                    img.classList.remove('fade-out');
                 }
             });
         });
     </script>
+
+
 </body>
 
 </html>

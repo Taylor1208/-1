@@ -39,7 +39,7 @@ ul {
 }
 
 #home {
-    height: 500px;
+    height: 200px;
 }
 
 .img-group {
@@ -68,6 +68,16 @@ ul {
 
 }
 
+.img-group img {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    position: relative;
+}
+
+.img-group img.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .img-hide {
     transition: opacity 0.5s ease;
 }
@@ -77,9 +87,6 @@ ul {
     pointer-events: none;
 }
 
-.img-group img {
-    transition: opacity 0.5s ease;
-}
 
 .hide-on-scroll {
     opacity: 0;
